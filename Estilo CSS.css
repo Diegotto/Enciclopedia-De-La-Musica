@@ -1,0 +1,146 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f7f0;
+  }
+  
+  div {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-family: Calendas plus;
+    font-size: 48px;
+    color: rgb(208, 107, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(124, 255, 244, 0.3);
+    padding: 20px 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+  
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li{
+    margin-bottom: 10px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: #2c89e6;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  ul li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  h2 {
+    font-family: Rockwell;
+    font-size: 40px;
+    color: rgb(101, 219, 255);
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  p a {
+    color: #3f89f8;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 16px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    padding: 40px;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+  caption{
+    font-size: 35px;
+    background-color: rgb(101, 219, 255);
+  }
+
+  label, input{
+    font-size: 30px;
+  }
+
+  #check{
+    margin-left:1em;
+  }
+  
+  #ch{
+    height:0.8em;
+    width:0.8em;
+  }
